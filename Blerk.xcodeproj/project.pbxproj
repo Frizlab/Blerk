@@ -16,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		7B21068626725FC900184FBD /* Blerk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Blerk.entitlements; sourceTree = "<group>"; };
+		7B210687267267BF00184FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7B6A107B26725C3900BBB7C3 /* Blerk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blerk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6A107E26725C3900BBB7C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B6A108026725C3900BBB7C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +57,7 @@
 		7B6A107D26725C3900BBB7C3 /* Blerk */ = {
 			isa = PBXGroup;
 			children = (
+				7B210687267267BF00184FBD /* Info.plist */,
 				7B21068626725FC900184FBD /* Blerk.entitlements */,
 				7B6A107E26725C3900BBB7C3 /* AppDelegate.swift */,
 				7B6A108026725C3900BBB7C3 /* ViewController.swift */,
@@ -286,11 +288,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y934YL6S75;
+				DEVELOPMENT_TEAM = DVL8GW97S8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blerk/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Blerk;
+				INFOPLIST_KEY_CFBundleName = Blerk;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -316,11 +322,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = Y934YL6S75;
+				DEVELOPMENT_TEAM = DVL8GW97S8;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blerk/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Blerk;
+				INFOPLIST_KEY_CFBundleName = Blerk;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
